@@ -1,0 +1,550 @@
+{
+  "nodes": [{
+      "position": 1,
+      "type":"question",
+      "text": "Is your hypothesis based on comparison or is it based on correlation?",
+      "info": [{
+          "infoTitle": "Comparison:",
+          "infoText": "Predicting a difference between different conditions of a variable, such as the mean score taken at different times or with different groups."
+        },
+        {
+          "infoTitle": "Correlation:",
+          "infoText": "Predicting a relationship between two variables i.e. that change in one variable will increase or decrease with change in another."
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "type":"question",
+      "text": "What is the level of measurement of your dependent variable? Are you recording at the interval / ratio, ordinal or nominal levels?",
+      "info": [{
+          "infoTitle": "Interval/Ratio:",
+          "infoText": "Data measured with an equidistant scale, such as time in seconds, age in years or weight in kg."
+        },
+        {
+          "infoTitle": "Ordinal:",
+          "infoText": "Categories which can be ordered, such as first, second or third in a race."
+        },
+        {
+          "infoTitle": "Nominal:",
+          "infoText": "Mutually exclusive categories such as male or female, married or single."
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "type":"question",
+      "text": "What is the level of measurement of your dependent variable? Are you recording at the interval / ratio, ordinal or nominal levels?",
+      "info": [{
+          "infoTitle": "Interval/Ratio:",
+          "infoText": "Data measured with an equidistant scale, such as time in seconds, age in years or weight in kg."
+        },
+        {
+          "infoTitle": "Ordinal:",
+          "infoText": "Categories which can be ordered, such as first, second or third in a race."
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "type":"question",
+      "text": "Is the basic design of your research between groups or within groups?",
+      "info": [{
+          "infoTitle": "Between:",
+          "infoText": "Different participants are each condition (i.e. independant, unrelated)."
+        },
+        {
+          "infoTitle": "Within:",
+          "infoText": "Participants in each condition are the same (i.e. paired, repeated)."
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "type":"question",
+      "text": "Is the basic design of your research between groups or within groups?",
+      "info": [{
+          "infoTitle": "Between:",
+          "infoText": "Different participants are each condition (i.e. independant, unrelated)."
+        },
+        {
+          "infoTitle": "Within:",
+          "infoText": "Participants in each condition are the same (i.e. paired, repeated)."
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "type":"question",
+      "text": "Is the basic design of your research between groups or within groups?",
+      "info": [{
+          "infoTitle": "Between:",
+          "infoText": "Different participants are each condition (i.e. independant, unrelated)."
+        },
+        {
+          "infoTitle": "Within:",
+          "infoText": "Participants in each condition are the same (i.e. paired, repeated)."
+        }
+      ]
+    },
+    {
+      "position": 7,
+      "type":"result",
+      "text": "SUGGESTED TEST: PERSON PRODUCT MOMENT CORRELATION COEFFICIENT",
+      "info": [{
+        "infoTitle": "Reasoning:",
+        "infoText": "The pearson correlation coeffcient can be used to test for significant relationship between two variables when data are collected at an interval or ratio level of measurement."
+      },
+      {
+        "infoTitle": "Consider:",
+        "infoText": "Data being analysed with paremetric tests should satisfy a number of assumptions in order that results can more confidently be applied to populations beyond the sample being tested - such as the distribution of the data being approxiately normal (i.e. not overly skewed). Satisfying such assumptions is particularly important if the sample size N is relatively low."
+      }
+    ]
+    },
+    {
+      "position": 8,
+      "type":"result",
+      "text": "SUGGESTED TEST: SPEARMAN RANK ORDER CORRELATION COFFICENT",
+      "info": [{
+        "infoTitle": "Reasoning:",
+        "infoText": "The Spearman correlation coefficient can be used to test for significant relationship between two variables when data are collected at an ordinal level of measurement."
+      }]
+    },
+    {
+      "position": 9,
+      "type":"question",
+      "text": "Does your study investigate the effects of one idependent variable or more than one independent variable?",
+      "info": [{
+          "infoTitle": "One variable:",
+          "infoText": "For example, the effect of the independent variable caffeine on the dependent variable of reaction time."
+        },
+        {
+          "infoTitle": "More than one variable:",
+          "infoText": "For example, the effect of the independent variables caffeine and also sleep deprivation on the dependent variable of reaction time."
+        }
+      ]
+    },
+    {
+      "position": 10,
+      "type":"question",
+      "text": "Does your study investigate the effects of one idependent variable or more than one independent variable?",
+      "info": [{
+          "infoTitle": "One variable:",
+          "infoText": "For example, the effect of the independent variable caffeine on the dependent variable of reaction time."
+        },
+        {
+          "infoTitle": "More than one variable:",
+          "infoText": "For example, the effect of the independent variables caffeine and also sleep deprivation on the dependent variable of reaction time."
+        }
+      ]
+    },
+    {
+      "position": 11,
+      "type":"question",
+      "text": "Does your independent variable consist of two conditions or more than two conditions?",
+      "info": [{
+          "infoTitle": "Two conditions:",
+          "infoText": "For example, looking at differences between married and single participants."
+        },
+        {
+          "infoTitle": "More than two conditions:",
+          "infoText": "For eample, looking at differences between married, single and divorced participants."
+        }
+      ]
+    },
+    {
+      "position": 12,
+      "type":"question",
+      "text": "Does your independent variable consist of two conditions or more than two conditions?",
+      "info": [{
+          "infoTitle": "Two conditions:",
+          "infoText": "For example, looking at differences between married and single participants."
+        },
+        {
+          "infoTitle": "More than two conditions:",
+          "infoText": "For eample, looking at differences between married, single and divorced participants."
+        }
+      ]
+    },
+    {
+      "position": 13,
+      "type":"question",
+      "text": "Does your independent variable consist of two conditions or more than two conditions?",
+      "info": [{
+          "infoTitle": "Two conditions:",
+          "infoText": "For example, looking at differences between married and single participants."
+        },
+        {
+          "infoTitle": "More than two conditions:",
+          "infoText": "For eample, looking at differences between married, single and divorced participants."
+        }
+      ]
+    },
+    {
+      "position": 14,
+      "type":"question",
+      "text": "Does your independent variable consist of two conditions or more than two conditions?",
+      "info": [{
+          "infoTitle": "Two conditions:",
+          "infoText": "For example, looking at differences between married and single participants."
+        },
+        {
+          "infoTitle": "More than two conditions:",
+          "infoText": "For eample, looking at differences between married, single and divorced participants."
+        }
+      ]
+    },
+    {
+      "position": 15,
+      "type":"question",
+      "text": "Does your independent variable consist of two conditions or more than two conditions?",
+      "info": [{
+          "infoTitle": "Two conditions:",
+          "infoText": "For example, examing whether participant scores measured in the morning differ from those same participant scores in the afternoon."
+        },
+        {
+          "infoTitle": "More than two conditions:",
+          "infoText": "For eample, examing whether participant scores measured in the morning differ from those same participant scores in the afternoo or in the evening"
+        }
+      ]
+    },
+    {
+      "position": 16,
+      "type":"result",
+      "text": "SUGGESTED TEST: TWO WAY ANOVA (WITHIN)",
+      "info": [{
+        "infoTitle":"Reasoning:",
+        "infoText": "The Two Way Anova (Within) can be used to determine significant differences between the means of two or more conditions of more than one independent variable, when the research design is within groups and data are collected at an interval or ratio level of measurement."
+      },
+      {
+        "infoTitle": "Consider",
+        "infoText": "Data being analysed with parametric tests such as this should satisfy a number of assumptions in order that results can more confidently be applied to populations beyond the sample being tested - such as distribution of data being approximately normal (i.e. not overly skewed). Satisfying such assumptions is particularly important if the sample size N is relatively low."
+      },
+      {
+        "infoTitle": "Also consider:",
+        "infoText": "Significant results found by analysing data via an omnibus test such as this usually require further analysis, as although they indicate a significant effect, there is no indication of where that effect comes from. Post-hoc testing is this usually needed to establish source of the significant effect."
+      }
+    ]
+    },
+    {
+      "position": 17,
+      "type":"question",
+      "text": "Does your independent variable consist of two conditions or more than two conditions?",
+      "info": [{
+          "infoTitle": "Two conditions:",
+          "infoText": "For example, looking at differences between married and single participants."
+        },
+        {
+          "infoTitle": "More than two conditions:",
+          "infoText": "For eample, looking at differences between married, single and divorced participants."
+        }
+      ]
+    },
+    {
+      "position": 18,
+      "type":"result",
+      "text": "SUGGESTED TEST: TWO WAY ANOVA (BETWEEN)",
+      "info": [{
+        "infoTitle": "Reasoning:",
+        "infoText": "The Two Way Anova (Between) can be used to determine significant differences between the means of two or more conditions of more than one independent variable, when the research design is between groups and data are collected at an interval or ratio level of mesurement."
+      },
+      {
+        "infoTitle": "Consider:",
+        "infoText": "Data being analysed with parametric tests such as this should satisfy a number of assumptions in order that results can more confidently be applied to populations beyond the sample being tested - such as the distribution of the data being approximately normal (i.e. not overly skewed). Satisfying such assumptions is particularly important if the sample size N is relatively low."
+      },
+      {
+        "infoTitle": "Also consider:",
+        "infoText": "Significant results found by analysing data via an omnibus test such as this usually require further analysis, as although they indicate a significant effect, there is no indication of where thhat effect comes from. Post-hoc testing is thus usually needed to establishh the source of the significant effect."
+      }
+    ]
+    },
+    {
+      "position": 19,
+      "type":"result",
+      "text": "SUGGESTED TEST: WILCOXON MATCHED PAIRS TEST",
+      "info": [{
+        "infoTitle": "Reasoning:",
+        "infoText": "The Wilcoxon matched pairs test can be used to determine significant differences between two conditions, when the research design is within groups and data are collected at an ordinal level of measurement."
+      }]
+    },
+    {
+      "position": 20,
+      "type":"result",
+      "text": "SUGGESTED TEST: FRIEDMAN TEST",
+      "info": [{
+        "infoTitle": "Reasoning:",
+        "infoText": ""
+      },
+      {
+        "infoTitle": "Consider:",
+        "infoText": "Significant results found by analysing data via an omnibus test such as this usually require further analysis, as although they indicate a significant effect, there is no indication of where thhat effect comes from. Post-hoc testing is thus usually needed to establishh the source of the significant effect."
+      }
+      ]
+    },
+    {
+      "position": 21,
+      "type":"result",
+      "text": "SUGGESTED TEST: MANN WHITNEY U TEST",
+      "info": [{
+        "infoTitle": "Reasoning:",
+        "infoText": "The Mann Whitney U test can be used to determine significant differences between two conditions, when the research design is between groups and data are collected at an ordinal level of mesurement."
+      }]
+    },
+    {
+      "position": 22,
+      "type":"result",
+      "text": "SUGGESTED TEST: KRUSKALL WALLIS",
+      "info": [{
+        "infoTitle": "Reasoning:",
+        "infoText": ""
+      },
+      {
+        "infoTitle": "Consider:",
+        "infoText": "Significant results found by analysing data via an omnibus test such as this usually require further analysis, as although they indicate a significant effect, there is no indication of where thhat effect comes from. Post-hoc testing is thus usually needed to establishh the source of the significant effect."
+      }
+      ]
+    },
+    {
+      "position": 23,
+      "type":"result",
+      "text": "SUGGESTED TEST: MCNEMAR CHI SQUARE TEST",
+      "info": [{
+        "infoTitle": "Reasoning:",
+        "infoText": "The McNemar Chi Square test can be used to determine siginificant differences between two conditios, when the research design is within groups and data are collected at a nominal level of measurement."
+      }]
+    },
+    {
+      "position": 24,
+      "type":"result",
+      "text": "SUGGESTED TEST: COCHRAN'S Q",
+      "info": [{
+        "infoTitle": "Reasoning:",
+        "infoText": ""
+      },
+      {
+        "infoTitle": "Consider:",
+        "infoText": "Significant results found by analysing data via an omnibus test such as this usually require further analysis, as although they indicate a significant effect, there is no indication of where thhat effect comes from. Post-hoc testing is thus usually needed to establishh the source of the significant effect."
+      }
+      ]
+    },
+    {
+      "position": 25,
+      "type":"result",
+      "text": "SUGGESTED TEST: PEARSON CHI SQUARE TEST",
+      "info": [{
+        "infoTitle": "Reasoning:",
+        "infoText": ""
+      }]
+    },
+    {
+      "position": 26,
+      "type":"result",
+      "text": "SUGGESTED TEST: PAIRED T-TEST",
+      "info": [{
+        "infoTitle": "Reasoning:",
+        "infoText": "The Paired t-test can be used to determine significant differences between thhe means of two conditions, when the research design is within groups and data are collected at an interval or ratio level of measurement."
+      },
+      {
+        "infoTitle": "Consider:",
+        "infoText": "Data being analysed with parametric tests such as this should satisfy a number of assumptions in oorder that results can more confidently be applied to populations beyond the sample being tested - such as the distribution of the data being approximately normal (i.e. not overly skewed). Satisfying such assumptions is particularly important if the sample size N is relatively low."
+      }
+      ]
+    },
+    {
+      "position": 27,
+      "type":"result",
+      "text": "SUGGESTED TEST: ONE WAY ANOVA (WITHIN)",
+      "info": [{
+        "infoTitle": "Reasoning:",
+        "infoText": "The One Way Anova (Within) can be used to determine significant differences between the means of more than two conditions of one independant variable, when the research design is within groups and data are collected at an interval or ratio level of measurement."
+      },
+      {
+        "infoTitle": "Consider:",
+        "infoText": "Data being analysed with parametric tests such as this should satisfy a number of assumptions in oorder that results can more confidently be applied to populations beyond the sample being tested - such as the distribution of the data being approximately normal (i.e. not overly skewed). Satisfying such assumptions is particularly important if the sample size N is relatively low."
+      },
+      {
+        "infoTitle": "Also consider:",
+        "infoText": "Significant results found by analysing data via an omnibus test such as this usually require further analysis, as although they indicate a significant effect, there is no indication of where thhat effect comes from. Post-hoc testing is thus usually needed to establishh the source of the significant effect."
+      }
+      ]
+    },
+    {
+      "position": 28,
+      "type":"result",
+      "text": "SUGGESTED TEST: INDEPENDENT T-TEST",
+      "info": [{
+        "infoTitle": "Reasoning:",
+        "infoText": "The independant t-test can be used to determine significant differences between the means of two conditions, when the research design is between groups and data are collected at an interval or ratio level of measurement."
+      },
+      {
+        "infoTitle": "Consider:",
+        "infoText": "Data being analysed with parametric tests such as this should satisfy a number of assumptions in oorder that results can more confidently be applied to populations beyond the sample being tested - such as the distribution of the data being approximately normal (i.e. not overly skewed). Satisfying such assumptions is particularly important if the sample size N is relatively low."
+      }
+      ]
+    },
+    {
+      "position": 29,
+      "type":"result",
+      "text": "SUGGESTED TEST: ONE WAY ANOVA (BETWEEN)",
+      "info": [{
+        "infoTitle": "Reasoning:",
+        "infoText": "The One Way Anova (Between) can be used to determine significant differences between the means of more than two conditions of one independent variable, when the research design is between groups and data are collected at an interval or ratio level of measurement."
+      },
+      {
+        "infoTitle": "Consider:",
+        "infoText": "Data being analysed with parametric tests such as this should satisfy a number of assumptions in oorder that results can more confidently be applied to populations beyond the sample being tested - such as the distribution of the data being approximately normal (i.e. not overly skewed). Satisfying such assumptions is particularly important if the sample size N is relatively low."
+      },
+      {
+        "infoTitle": "Also consider:",
+        "infoText": "Significant results found by analysing data via an omnibus test such as this usually require further analysis, as although they indicate a significant effect, there is no indication of where thhat effect comes from. Post-hoc testing is thus usually needed to establishh the source of the significant effect."
+      }
+      ]
+    }
+  ],
+  "edges": [{
+      "source": 1,
+      "destination": 2,
+      "text": "COMPARISON"
+    },
+    {
+      "source": 1,
+      "destination": 3,
+      "text": "CORRELATION"
+    },
+    {
+      "source": 2,
+      "destination": 4,
+      "text": "INTERVAL/RATIO"
+    },
+    {
+      "source": 2,
+      "destination": 5,
+      "text": "ORDINAL"
+    },
+    {
+      "source": 2,
+      "destination": 6,
+      "text": "NOMINAL"
+    },
+    {
+      "source": 3,
+      "destination": 7,
+      "text": "INTERVAL/RATIO"
+    },
+    {
+      "source": 3,
+      "destination": 8,
+      "text": "ORDINAL"
+    },
+    {
+      "source": 4,
+      "destination": 9,
+      "text": "WITHIN"
+    },
+    {
+      "source": 4,
+      "destination": 10,
+      "text": "BETWEEN"
+    },
+    {
+      "source": 5,
+      "destination": 11,
+      "text": "WITHIN"
+    },
+    {
+      "source": 5,
+      "destination": 12,
+      "text": "BETWEEN"
+    },
+    {
+      "source": 6,
+      "destination": 13,
+      "text": "WITHIN"
+    },
+    {
+      "source": 6,
+      "destination": 14,
+      "text": "BETWEEN"
+    },
+    {
+      "source": 9,
+      "destination": 15,
+      "text": "ONE"
+    },
+    {
+      "source": 9,
+      "destination": 16,
+      "text": ">ONE"
+    },
+    {
+      "source": 10,
+      "destination": 17,
+      "text": "ONE"
+    },
+    {
+      "source": 10,
+      "destination": 18,
+      "text": ">ONE"
+    },
+    {
+      "source": 11,
+      "destination": 19,
+      "text": "TWO"
+    },
+    {
+      "source": 11,
+      "destination": 20,
+      "text": ">TWO"
+    },
+    {
+      "source": 12,
+      "destination": 21,
+      "text": "TWO"
+    },
+    {
+      "source": 12,
+      "destination": 22,
+      "text": ">TWO"
+    },
+    {
+      "source": 13,
+      "destination": 23,
+      "text": "TWO"
+    },
+    {
+      "source": 13,
+      "destination": 24,
+      "text": ">TWO"
+    },
+    {
+      "source": 14,
+      "destination": 25,
+      "text": "TWO"
+    },
+    {
+      "source": 14,
+      "destination": 25,
+      "text": ">TWO"
+    },
+    {
+      "source": 15,
+      "destination": 26,
+      "text": "TWO"
+    },
+    {
+      "source": 15,
+      "destination": 27,
+      "text": ">TWO"
+    },
+    {
+      "source": 17,
+      "destination": 28,
+      "text": "TWO"
+    },
+    {
+      "source": 17,
+      "destination": 29,
+      "text": ">TWO"
+    }
+  ]
+}

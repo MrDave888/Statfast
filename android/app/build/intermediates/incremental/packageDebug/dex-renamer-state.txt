@@ -1,0 +1,4 @@
+#Sun Feb 11 14:51:29 GMT 2018
+base.0=/home/dave/Documents/Dev/Mobile/Statfast/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+renamed.0=classes.dex
+file.0=/home/dave/Documents/Dev/Mobile/Statfast/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
