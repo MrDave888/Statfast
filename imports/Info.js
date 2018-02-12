@@ -8,7 +8,8 @@ import {
   Text,
   ScrollView,
   View,
-  Animated
+  Animated,
+  Easing
 } from 'react-native';
 
 /* Info component
@@ -19,50 +20,46 @@ import {
   what the question is asking the user. */
 export default class Info extends Component<{}> {
 
-  state = {
-   visible: false,
-   x: new Animated.Value(-100),
- };
-
- slide = () => {
-   Animated.spring(this.state.x, {
-     toValue: 0,
-   }).start();
-   this.setState({
-     visible: true,
-   });
- };
-
   render(){
+    let { fadeIn } = this.props;
+
     return(
       <View style={infoStyles.infoContainer}>
         <ScrollView
           showsHorizontalScrollIndicator={false}
         >
-          <Animated.View
-            style={[titleStyles.titleSlide, {
-              transform: [
-                {
-                  translateX:this.state.x
-                }
-              ]
-            }]}
-          >
-            {
-              this.props.currentNode.info.map((infoObj, index)=>{
-                return(
-                  <View style={infoStyles.infoBox}>
-                    <Text key={index} style={infoStyles.infoTitle}>
-                      {infoObj.infoTitle}
-                    </Text>
-                    <Text key={index} style={infoStyles.infoText}>
-                      {infoObj.infoText}
-                    </Text>
-                  </View>
-                )
-              })
-            }
-          </Animated.View>
+          {
+            this.props.currentNode.info.map((infoObj, index)=>{
+              return(
+                <View style={infoStyles.infoBox}>
+                  <Animated.Text
+                    key={index}
+                    style={
+                      infoStyles.infoTitle,
+                      {
+                        ...this.props.style,
+                        opacity: fadeIn
+                      }
+                    }
+                  >
+                    {infoObj.infoTitle}
+                  </Animated.Text>
+                  <Animated.Text
+                    key={index}
+                    style={[
+                      infoStyles.infoText,
+                      {
+                        ...this.props.style,
+                        opacity: fadeIn
+                      }
+                    ]}
+                  >
+                    {infoObj.infoText}
+                  </Animated.Text>
+                </View>
+              )
+            })
+          }
         </ScrollView>
       </View>
     )

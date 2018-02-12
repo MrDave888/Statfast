@@ -7,7 +7,8 @@ import {
   StyleSheet,
   Text,
   View,
-  Animated
+  Animated,
+  Easing
 } from 'react-native';
 
 /* Title Component
@@ -18,41 +19,27 @@ import {
   test the user should take based on there previous
   choices. */
 export default class Title extends Component<{}> {
-
-  state = {
-   visible: false,
-   x: new Animated.Value(-100),
- };
-
- slide = () => {
-   Animated.spring(this.state.x, {
-     toValue: 0,
-   }).start();
-   this.setState({
-     visible: true,
-   });
- };
-
   render(){
+    let { fadeIn } = this.props;
+    let { slideIn } = this.props;
+
     return(
       <View style={titleStyles.titleContainer}>
-        <Animated.View
-          style={[titleStyles.titleSlide, {
-            transform: [
-              {
-                translateX:this.state.x
-              }
-            ]
-          }]}
+        <Animated.Text
+          style={[
+            titleStyles.title,
+            {
+              ...this.props.style,
+              opacity: fadeIn,
+              transform: slideIn
+            }
+          ]}
         >
-          <Text style={titleStyles.title}>
-            {this.props.currentNode.text}
-          </Text>
-        </Animated.View>
+          {this.props.currentNode.text}
+        </Animated.Text>
       </View>
     )
   }
-
 }
 
 // StyleSheet for the Title component //
@@ -66,7 +53,7 @@ const titleStyles = StyleSheet.create({
     marginLeft: 32,
     marginRight: 32,
   },
-  title:{
-    fontSize: 18
+  title: {
+    fontSize: 18,
   }
 })

@@ -8,7 +8,9 @@ import {
   Text,
   Image,
   TouchableOpacity,
-  View
+  View,
+  Animated,
+  Easing
 } from 'react-native';
 
 // Icon imports //
@@ -47,7 +49,9 @@ export default class App extends Component<{}> {
     this.state = {
       position: 1,
       nodes: [],
-      edges: []
+      edges: [],
+      slideIn: new Animated.ValueXY({ x: 400, y: 0 }),
+      fadeIn: new Animated.Value(0)
     }
   }
 
@@ -60,6 +64,25 @@ export default class App extends Component<{}> {
       nodes: data.nodes,
       edges: data.edges
     });
+
+    Animated.parallel([
+      Animated.timing(this.state.fadeIn,
+        {
+          toValue: 1,
+          duration: 600,
+          easing: Easing.in(Easing.ease)
+        }
+      ),
+      Animated.timing(this.state.slideIn,
+        {
+          toValue: { x: 0, y: 0},
+          duration: 600,
+          easing: Easing.in(Easing.ease)
+        }
+      )
+    ]).start(() =>{
+      this.resetAnimationValues();
+    });
   }
 
   /* handleChangePosition function
@@ -71,6 +94,32 @@ export default class App extends Component<{}> {
     this.setState({
       position: newPosition
     })
+
+    Animated.parallel([
+      Animated.timing(this.state.fadeIn,
+        {
+          toValue: 1,
+          duration: 600,
+          easing: Easing.in(Easing.ease)
+        }
+      ),
+      Animated.timing(this.state.slideIn,
+        {
+          toValue: { x: 0, y: 0},
+          duration: 600,
+          easing: Easing.in(Easing.ease)
+        }
+      )
+    ]).start(() =>{
+      this.resetAnimationValues();
+    });
+  }
+
+  resetAnimationValues(){
+    this.setState({
+      slideIn: new Animated.ValueXY({ x: 400, y: 0 }),
+      fadeIn: new Animated.Value(0)
+    })
   }
 
   render() {
@@ -81,8 +130,8 @@ export default class App extends Component<{}> {
     return (
       <View style={styles.container}>
         <Header changePosition={this.handleChangePosition.bind(this)} currentEdge={currentEdge[0]} position={this.state.position}/>
-        <Title currentNode={currentNode[0]}/>
-        <Info currentNode={currentNode[0]}/>
+        <Title currentNode={currentNode[0]} fadeIn={this.state.fadeIn} slideIn={this.state.slidIn}/>
+        <Info currentNode={currentNode[0]} fadeIn={this.state.fadeIn} slideIn={this.state.slideIn}/>
         <Choices changePosition={this.handleChangePosition.bind(this)} currentButtons={currentButtons} currentNode={currentNode[0]}/>
       </View>
     );
