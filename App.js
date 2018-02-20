@@ -58,12 +58,16 @@ export default class App extends Component<{}> {
   /* App componentWillMount function
     Sets state of initializes objects,
     passed from the locally imported
-    JSON file. */
+    JSON file. Animations are also
+    run to create fade in effect
+    on initial question & answer
+    page.*/
   componentWillMount(){
     this.setState({
       nodes: data.nodes,
       edges: data.edges
     });
+
 
     Animated.parallel([
       Animated.timing(this.state.fadeIn,
@@ -89,7 +93,10 @@ export default class App extends Component<{}> {
     Function handles variable passed from
     the any button within the application
     and sets state appropriately based on
-    the variable it is passed. */
+    the variable it is passed.
+    Animations are also run and reset
+    after each user choice within this
+    functionon. */
   handleChangePosition(newPosition){
     this.setState({
       position: newPosition
@@ -115,6 +122,12 @@ export default class App extends Component<{}> {
     });
   }
 
+  /* resetAnimationValues function
+    Function handles animation value
+    state and is called after an
+    animation is called in order
+    for the animation to run on next
+    user choice. */
   resetAnimationValues(){
     this.setState({
       slideIn: new Animated.ValueXY({ x: 400, y: 0 }),
