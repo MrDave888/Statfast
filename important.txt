@@ -1,0 +1,11 @@
+generator_command: keytool -genkey -v -keystore statfast.keystore -alias statfast-alias -keyalg RSA -keysize 2048 -validity 10000
+
+password: SFADJ1357r8
+first and last name: David Jones
+org Unit:
+organization: davejones.design
+city or locality: Bristol
+state or Province: Avon
+two letter country code: GB
+
+statfast-alias password: SFADJ1357r8

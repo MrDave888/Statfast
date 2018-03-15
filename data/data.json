@@ -90,7 +90,7 @@
     {
       "position": 7,
       "type":"result",
-      "text": "SUGGESTED TEST: PERSON PRODUCT MOMENT CORRELATION COEFFICIENT",
+      "text": "SUGGESTED TEST: PEARSON PRODUCT MOMENT CORRELATION COEFFICIENT",
       "info": [{
         "infoTitle": "Reasoning:",
         "infoText": "The pearson correlation coeffcient can be used to test for significant relationship between two variables when data are collected at an interval or ratio level of measurement."
@@ -144,11 +144,11 @@
       "text": "Does your independent variable consist of two conditions or more than two conditions?",
       "info": [{
           "infoTitle": "Two conditions:",
-          "infoText": "For example, looking at differences between married and single participants."
+          "infoText": "For example, looking at differences between alertness recorded in the morning and then in the afternoon."
         },
         {
           "infoTitle": "More than two conditions:",
-          "infoText": "For eample, looking at differences between married, single and divorced participants."
+          "infoText": "For example looking at differences between alertness recorded in the morning, then in the afternoon, and then again in the evening."
         }
       ]
     },
@@ -273,7 +273,7 @@
       "text": "SUGGESTED TEST: FRIEDMAN TEST",
       "info": [{
         "infoTitle": "Reasoning:",
-        "infoText": ""
+        "infoText": "The Friedman test can be used to determine significant differences between three or more conditions, when the research design is within groups and data are collected at an ordinal level of measurement."
       },
       {
         "infoTitle": "Consider:",
@@ -296,7 +296,7 @@
       "text": "SUGGESTED TEST: KRUSKALL WALLIS",
       "info": [{
         "infoTitle": "Reasoning:",
-        "infoText": ""
+        "infoText": "The Kruskall-Wallis test can be used to determine significant differences between three or more conditions, when the research design is between groups and data are collected at an ordinal level of measurement."
       },
       {
         "infoTitle": "Consider:",
@@ -319,7 +319,7 @@
       "text": "SUGGESTED TEST: COCHRAN'S Q",
       "info": [{
         "infoTitle": "Reasoning:",
-        "infoText": ""
+        "infoText": "The Cochran Q test can be used to determine significant differences between three or more conditions, when the research design is within groups and data are collected at a nominal level of measurement."
       },
       {
         "infoTitle": "Consider:",
@@ -333,7 +333,7 @@
       "text": "SUGGESTED TEST: PEARSON CHI SQUARE TEST",
       "info": [{
         "infoTitle": "Reasoning:",
-        "infoText": ""
+        "infoText": "The Pearson Chi Square test can be used to determine significant differences between conditions, when the research design is between groups and data are collected at a nominal level of measurement."
       }]
     },
     {
