@@ -51,7 +51,7 @@
       "text": "Is the basic design of your research between groups or within groups?",
       "info": [{
           "infoTitle": "Between:",
-          "infoText": "Different participants are each condition (i.e. independant, unrelated)."
+          "infoText": "Different participants are each condition (i.e. independent, unrelated)."
         },
         {
           "infoTitle": "Within:",
@@ -65,7 +65,7 @@
       "text": "Is the basic design of your research between groups or within groups?",
       "info": [{
           "infoTitle": "Between:",
-          "infoText": "Different participants are each condition (i.e. independant, unrelated)."
+          "infoText": "Different participants are each condition (i.e. independent, unrelated)."
         },
         {
           "infoTitle": "Within:",
@@ -79,7 +79,7 @@
       "text": "Is the basic design of your research between groups or within groups?",
       "info": [{
           "infoTitle": "Between:",
-          "infoText": "Different participants are each condition (i.e. independant, unrelated)."
+          "infoText": "Different participants are each condition (i.e. independent, unrelated)."
         },
         {
           "infoTitle": "Within:",
@@ -93,27 +93,27 @@
       "text": "SUGGESTED TEST: PEARSON PRODUCT MOMENT CORRELATION COEFFICIENT",
       "info": [{
         "infoTitle": "Reasoning:",
-        "infoText": "The pearson correlation coeffcient can be used to test for significant relationship between two variables when data are collected at an interval or ratio level of measurement."
+        "infoText": "The pearson correlation coefficient can be used to test for significant relationships between two variables when data are collected at an interval or ratio level of measurement."
       },
       {
-        "infoTitle": "Consider:",
-        "infoText": "Data being analysed with paremetric tests should satisfy a number of assumptions in order that results can more confidently be applied to populations beyond the sample being tested - such as the distribution of the data being approxiately normal (i.e. not overly skewed). Satisfying such assumptions is particularly important if the sample size N is relatively low."
+        "infoTitle": "However remember that...",
+        "infoText": "Data being analysed with parametric tests should satisfy a number of assumptions in order that results can more confidently be applied to populations beyond the sample being tested - such as the distribution of the data being approximately normal (i.e. not overly skewed). Satisfying such assumptions is particularly important if the sample size N is relatively low."
       }
     ]
     },
     {
       "position": 8,
       "type":"result",
-      "text": "SUGGESTED TEST: SPEARMAN RANK ORDER CORRELATION COFFICENT",
+      "text": "SUGGESTED TEST: SPEARMAN RANK ORDER CORRELATION COEFFICIENT",
       "info": [{
         "infoTitle": "Reasoning:",
-        "infoText": "The Spearman correlation coefficient can be used to test for significant relationship between two variables when data are collected at an ordinal level of measurement."
+        "infoText": "The Spearman correlation coefficient can be used to test for significant relationships between two variables when data are collected at an ordinal level of measurement."
       }]
     },
     {
       "position": 9,
       "type":"question",
-      "text": "Does your study investigate the effects of one idependent variable or more than one independent variable?",
+      "text": "Does your study investigate the effects of one independent variable or more than one independent variable?",
       "info": [{
           "infoTitle": "One variable:",
           "infoText": "For example, the effect of the independent variable caffeine on the dependent variable of reaction time."
@@ -127,7 +127,7 @@
     {
       "position": 10,
       "type":"question",
-      "text": "Does your study investigate the effects of one idependent variable or more than one independent variable?",
+      "text": "Does your study investigate the effects of one independent variable or more than one independent variable?",
       "info": [{
           "infoTitle": "One variable:",
           "infoText": "For example, the effect of the independent variable caffeine on the dependent variable of reaction time."
@@ -144,11 +144,11 @@
       "text": "Does your independent variable consist of two conditions or more than two conditions?",
       "info": [{
           "infoTitle": "Two conditions:",
-          "infoText": "For example, looking at differences between alertness recorded in the morning and then in the afternoon."
+          "infoText": "For example, looking at differences between scores recorded in the morning and then in the afternoon."
         },
         {
           "infoTitle": "More than two conditions:",
-          "infoText": "For example looking at differences between alertness recorded in the morning, then in the afternoon, and then again in the evening."
+          "infoText": "For example looking at differences between scores recorded in the morning, then in the afternoon, and then again in the evening."
         }
       ]
     },
@@ -162,7 +162,7 @@
         },
         {
           "infoTitle": "More than two conditions:",
-          "infoText": "For eample, looking at differences between married, single and divorced participants."
+          "infoText": "For example, looking at differences between married, single and divorced participants."
         }
       ]
     },
@@ -172,11 +172,11 @@
       "text": "Does your independent variable consist of two conditions or more than two conditions?",
       "info": [{
           "infoTitle": "Two conditions:",
-          "infoText": "For example, looking at differences between married and single participants."
+          "infoText": "For example, looking at differences between scores recorded in the morning and then in the afternoon."
         },
         {
           "infoTitle": "More than two conditions:",
-          "infoText": "For eample, looking at differences between married, single and divorced participants."
+          "infoText": "For example looking at differences between scores recorded in the morning, then in the afternoon, and then again in the evening."
         }
       ]
     },
@@ -190,7 +190,7 @@
         },
         {
           "infoTitle": "More than two conditions:",
-          "infoText": "For eample, looking at differences between married, single and divorced participants."
+          "infoText": "For example, looking at differences between married, single and divorced participants."
         }
       ]
     },
@@ -200,11 +200,11 @@
       "text": "Does your independent variable consist of two conditions or more than two conditions?",
       "info": [{
           "infoTitle": "Two conditions:",
-          "infoText": "For example, examing whether participant scores measured in the morning differ from those same participant scores in the afternoon."
+          "infoText": "For example, examining whether participant scores measured in the morning differ from those same participant scores in the afternoon."
         },
         {
           "infoTitle": "More than two conditions:",
-          "infoText": "For eample, examing whether participant scores measured in the morning differ from those same participant scores in the afternoo or in the evening"
+          "infoText": "For example, examining whether participant scores measured in the morning differ from those same participant scores in the afternoon or in the evening."
         }
       ]
     },
@@ -217,12 +217,12 @@
         "infoText": "The Two Way Anova (Within) can be used to determine significant differences between the means of two or more conditions of more than one independent variable, when the research design is within groups and data are collected at an interval or ratio level of measurement."
       },
       {
-        "infoTitle": "Consider",
+        "infoTitle": "However remember that...",
         "infoText": "Data being analysed with parametric tests such as this should satisfy a number of assumptions in order that results can more confidently be applied to populations beyond the sample being tested - such as distribution of data being approximately normal (i.e. not overly skewed). Satisfying such assumptions is particularly important if the sample size N is relatively low."
       },
       {
-        "infoTitle": "Also consider:",
-        "infoText": "Significant results found by analysing data via an omnibus test such as this usually require further analysis, as although they indicate a significant effect, there is no indication of where that effect comes from. Post-hoc testing is this usually needed to establish source of the significant effect."
+        "infoTitle": "Also don't forget that...",
+        "infoText": "Significant results found by analysing data via an omnibus test such as this usually require further analysis, as although they indicate a significant effect, there is no indication of where that effect comes from. Post-hoc testing is thus usually needed to establish source of the significant effect."
       }
     ]
     },
@@ -236,7 +236,7 @@
         },
         {
           "infoTitle": "More than two conditions:",
-          "infoText": "For eample, looking at differences between married, single and divorced participants."
+          "infoText": "For example, looking at differences between married, single and divorced participants."
         }
       ]
     },
@@ -246,15 +246,15 @@
       "text": "SUGGESTED TEST: TWO WAY ANOVA (BETWEEN)",
       "info": [{
         "infoTitle": "Reasoning:",
-        "infoText": "The Two Way Anova (Between) can be used to determine significant differences between the means of two or more conditions of more than one independent variable, when the research design is between groups and data are collected at an interval or ratio level of mesurement."
+        "infoText": "The Two Way Anova (Between) can be used to determine significant differences between the means of two or more conditions of more than one independent variable, when the research design is between groups and data are collected at an interval or ratio level of measurement."
       },
       {
-        "infoTitle": "Consider:",
+        "infoTitle": "However remember that...",
         "infoText": "Data being analysed with parametric tests such as this should satisfy a number of assumptions in order that results can more confidently be applied to populations beyond the sample being tested - such as the distribution of the data being approximately normal (i.e. not overly skewed). Satisfying such assumptions is particularly important if the sample size N is relatively low."
       },
       {
-        "infoTitle": "Also consider:",
-        "infoText": "Significant results found by analysing data via an omnibus test such as this usually require further analysis, as although they indicate a significant effect, there is no indication of where thhat effect comes from. Post-hoc testing is thus usually needed to establishh the source of the significant effect."
+        "infoTitle": "Also don't forget that...",
+        "infoText": "Significant results found by analysing data via an omnibus test such as this usually require further analysis, as although they indicate a significant effect, there is no indication of where that effect comes from. Post-hoc testing is thus usually needed to establish the source of the significant effect."
       }
     ]
     },
@@ -276,8 +276,8 @@
         "infoText": "The Friedman test can be used to determine significant differences between three or more conditions, when the research design is within groups and data are collected at an ordinal level of measurement."
       },
       {
-        "infoTitle": "Consider:",
-        "infoText": "Significant results found by analysing data via an omnibus test such as this usually require further analysis, as although they indicate a significant effect, there is no indication of where thhat effect comes from. Post-hoc testing is thus usually needed to establishh the source of the significant effect."
+        "infoTitle": "However remember that...",
+        "infoText": "Significant results found by analysing data via an omnibus test such as this usually require further analysis, as although they indicate a significant effect, there is no indication of where that effect comes from. Post-hoc testing is thus usually needed to establish the source of the significant effect."
       }
       ]
     },
@@ -299,8 +299,8 @@
         "infoText": "The Kruskall-Wallis test can be used to determine significant differences between three or more conditions, when the research design is between groups and data are collected at an ordinal level of measurement."
       },
       {
-        "infoTitle": "Consider:",
-        "infoText": "Significant results found by analysing data via an omnibus test such as this usually require further analysis, as although they indicate a significant effect, there is no indication of where thhat effect comes from. Post-hoc testing is thus usually needed to establishh the source of the significant effect."
+        "infoTitle": "However remember that...",
+        "infoText": "Significant results found by analysing data via an omnibus test such as this usually require further analysis, as although they indicate a significant effect, there is no indication of where that effect comes from. Post-hoc testing is thus usually needed to establish the source of the significant effect."
       }
       ]
     },
@@ -310,7 +310,7 @@
       "text": "SUGGESTED TEST: MCNEMAR CHI SQUARE TEST",
       "info": [{
         "infoTitle": "Reasoning:",
-        "infoText": "The McNemar Chi Square test can be used to determine siginificant differences between two conditios, when the research design is within groups and data are collected at a nominal level of measurement."
+        "infoText": "The McNemar Chi Square test can be used to determine siginificant differences between two conditions, when the research design is within groups and data are collected at a nominal level of measurement."
       }]
     },
     {
@@ -322,8 +322,8 @@
         "infoText": "The Cochran Q test can be used to determine significant differences between three or more conditions, when the research design is within groups and data are collected at a nominal level of measurement."
       },
       {
-        "infoTitle": "Consider:",
-        "infoText": "Significant results found by analysing data via an omnibus test such as this usually require further analysis, as although they indicate a significant effect, there is no indication of where thhat effect comes from. Post-hoc testing is thus usually needed to establishh the source of the significant effect."
+        "infoTitle": "However remember that...",
+        "infoText": "Significant results found by analysing data via an omnibus test such as this usually require further analysis, as although they indicate a significant effect, there is no indication of where that effect comes from. Post-hoc testing is thus usually needed to establish the source of the significant effect."
       }
       ]
     },
@@ -342,11 +342,11 @@
       "text": "SUGGESTED TEST: PAIRED T-TEST",
       "info": [{
         "infoTitle": "Reasoning:",
-        "infoText": "The Paired t-test can be used to determine significant differences between thhe means of two conditions, when the research design is within groups and data are collected at an interval or ratio level of measurement."
+        "infoText": "The Paired t-test can be used to determine significant differences between the means of two conditions, when the research design is within groups and data are collected at an interval or ratio level of measurement."
       },
       {
-        "infoTitle": "Consider:",
-        "infoText": "Data being analysed with parametric tests such as this should satisfy a number of assumptions in oorder that results can more confidently be applied to populations beyond the sample being tested - such as the distribution of the data being approximately normal (i.e. not overly skewed). Satisfying such assumptions is particularly important if the sample size N is relatively low."
+        "infoTitle": "However remember that...",
+        "infoText": "Data being analysed with parametric tests such as this should satisfy a number of assumptions in order that results can more confidently be applied to populations beyond the sample being tested - such as the distribution of the data being approximately normal (i.e. not overly skewed). Satisfying such assumptions is particularly important if the sample size N is relatively low."
       }
       ]
     },
@@ -359,12 +359,12 @@
         "infoText": "The One Way Anova (Within) can be used to determine significant differences between the means of more than two conditions of one independant variable, when the research design is within groups and data are collected at an interval or ratio level of measurement."
       },
       {
-        "infoTitle": "Consider:",
-        "infoText": "Data being analysed with parametric tests such as this should satisfy a number of assumptions in oorder that results can more confidently be applied to populations beyond the sample being tested - such as the distribution of the data being approximately normal (i.e. not overly skewed). Satisfying such assumptions is particularly important if the sample size N is relatively low."
+        "infoTitle": "However remember that...",
+        "infoText": "Data being analysed with parametric tests such as this should satisfy a number of assumptions in order that results can more confidently be applied to populations beyond the sample being tested - such as the distribution of the data being approximately normal (i.e. not overly skewed). Satisfying such assumptions is particularly important if the sample size N is relatively low."
       },
       {
-        "infoTitle": "Also consider:",
-        "infoText": "Significant results found by analysing data via an omnibus test such as this usually require further analysis, as although they indicate a significant effect, there is no indication of where thhat effect comes from. Post-hoc testing is thus usually needed to establishh the source of the significant effect."
+        "infoTitle": "Also don't forget that...",
+        "infoText": "Significant results found by analysing data via an omnibus test such as this usually require further analysis, as although they indicate a significant effect, there is no indication of where that effect comes from. Post-hoc testing is thus usually needed to establish the source of the significant effect."
       }
       ]
     },
@@ -377,8 +377,8 @@
         "infoText": "The independant t-test can be used to determine significant differences between the means of two conditions, when the research design is between groups and data are collected at an interval or ratio level of measurement."
       },
       {
-        "infoTitle": "Consider:",
-        "infoText": "Data being analysed with parametric tests such as this should satisfy a number of assumptions in oorder that results can more confidently be applied to populations beyond the sample being tested - such as the distribution of the data being approximately normal (i.e. not overly skewed). Satisfying such assumptions is particularly important if the sample size N is relatively low."
+        "infoTitle": "However remember that...",
+        "infoText": "Data being analysed with parametric tests such as this should satisfy a number of assumptions in order that results can more confidently be applied to populations beyond the sample being tested - such as the distribution of the data being approximately normal (i.e. not overly skewed). Satisfying such assumptions is particularly important if the sample size N is relatively low."
       }
       ]
     },
@@ -391,12 +391,12 @@
         "infoText": "The One Way Anova (Between) can be used to determine significant differences between the means of more than two conditions of one independent variable, when the research design is between groups and data are collected at an interval or ratio level of measurement."
       },
       {
-        "infoTitle": "Consider:",
-        "infoText": "Data being analysed with parametric tests such as this should satisfy a number of assumptions in oorder that results can more confidently be applied to populations beyond the sample being tested - such as the distribution of the data being approximately normal (i.e. not overly skewed). Satisfying such assumptions is particularly important if the sample size N is relatively low."
+        "infoTitle": "However remember that...",
+        "infoText": "Data being analysed with parametric tests such as this should satisfy a number of assumptions in order that results can more confidently be applied to populations beyond the sample being tested - such as the distribution of the data being approximately normal (i.e. not overly skewed). Satisfying such assumptions is particularly important if the sample size N is relatively low."
       },
       {
-        "infoTitle": "Also consider:",
-        "infoText": "Significant results found by analysing data via an omnibus test such as this usually require further analysis, as although they indicate a significant effect, there is no indication of where thhat effect comes from. Post-hoc testing is thus usually needed to establishh the source of the significant effect."
+        "infoTitle": "Also don't forget that...",
+        "infoText": "Significant results found by analysing data via an omnibus test such as this usually require further analysis, as although they indicate a significant effect, there is no indication of where that effect comes from. Post-hoc testing is thus usually needed to establish the source of the significant effect."
       }
       ]
     }
